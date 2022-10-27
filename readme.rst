@@ -1,6 +1,6 @@
 Centre for Astronomy and Supercomputing coding challenge entry
 ==============================================================
-This is the entry of Geray Karademir and Christian Lehmann in the CAS Coding Challenge. It uses a list of authors as input and finds paper publications of all those authors on https://arxiv.org/archive/astro-ph (can be changed within the code to other ArXiv fields).
+This is the entry of Geray Karademir (https://github.com/GKarademir) and Christian Lehmann (https://github.com/CLehmann94) in the CAS Coding Challenge. It uses a list of authors as input and finds paper publications of all those authors on https://arxiv.org/archive/astro-ph (can be changed within the code to other ArXiv fields).
 
 This software is meant to be run by a system that executes it regularly (i.e. daily, weekly or monthly) and feeds it into a table or a weekly email. This is meant to celebrate the achievements of astronomers in the centre. 
 
