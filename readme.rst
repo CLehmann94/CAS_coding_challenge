@@ -18,6 +18,26 @@ Output
 ------
 Title: the titel of the publication
 
+Centre for Astronomy and Supercomputing coding challenge entry
+==============================================================
+This is the entry of Geray Karademir (https://github.com/GKarademir) and Christian Lehmann (https://github.com/CLehmann94) in the CAS Coding Challenge. It uses a list of authors as input and finds paper publications of all those authors on https://arxiv.org/archive/astro-ph (can be changed within the code to other ArXiv fields).
+
+This software is meant to be run by a system that executes it regularly (i.e. daily, weekly or monthly) and feeds it into a table or a weekly email. This is meant to celebrate the achievements of astronomers in the centre. 
+
+
+Usage
+-----
+The algorithm is meant to be part of an automated system that fetches the publication information regularly, but it can be executed from within a python (3.7 or later) environment with the necessary dependencies (see below)::
+
+  $ python3 CAS_coding_challenge.py
+
+Note that it accesses a list of authors to be identified on the ArXiv ("List_of_authors.csv"), which only contains the authors of this document and Prof. Murphy as an example array of publishing authors.
+
+
+Output
+------
+Title: the title of the publication
+
 ArXiv: the access link to the publication abstract
 
 Authors: all authors of the paper (including those not in the list of authors)
@@ -34,7 +54,7 @@ Dependencies
 arxiv, bs4, contextlib, numpy, os, pandas, PyPDF2, re, requests, sys, unicodedata, urllib
 
 
-The original challenge (Quoted from Prof. Michael Murphy, Swinburne Unversity)
+The original challenge (Quoted from Prof. Michael Murphy, Swinburne University)
 =========================================================
 The challenge:
 
