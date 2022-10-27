@@ -51,7 +51,21 @@ Journal: the journal which the paper is submitted to (currently only checks for 
 
 Dependencies
 ------------
-arxiv, bs4, contextlib, numpy, os, pandas, PyPDF2, re, requests, sys, unicodedata, urllib
+arxiv       1.4.2
+
+beautifulsoup4  4.11.1
+
+bs4        0.0.1
+
+numpy       1.19.5
+
+PyPDF2      2.11.1
+
+pandas      1.1.5
+
+requests     2.27.1
+
+urllib3      1.26.12
 
 
 The original challenge (Quoted from Prof. Michael Murphy, Swinburne University)
