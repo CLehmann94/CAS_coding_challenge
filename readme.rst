@@ -30,7 +30,7 @@ Journal: the journal which the paper is submitted to (currently only checks for 
 
 
 Dependencies
-============
+------------
 arxiv, bs4, contextlib, numpy, os, pandas, PyPDF2, re, requests, sys, unicodedata, urllib
 
 
